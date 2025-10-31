@@ -1,0 +1,29 @@
+[project]
+name = "books-orders-api"
+version = "0.1.0"
+description = "Book Order API"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "alembic>=1.17.0",
+    "fastapi[standard]>=0.120.1",
+    "psycopg2-binary>=2.9.11",
+    "psycopg[binary]>=3.2.12",
+    "pydantic>=2.12.3",
+    "pydantic-settings>=2.11.0",
+    "python-dotenv>=1.2.1",
+    "sqlalchemy>=2.0.44",
+    "uvicorn>=0.38.0",
+]
+[tool.pyright]
+reportUnusedFunction = false
+
+[dependency-groups]
+dev = [
+    "httpx",
+    "psycopg2-binary>=2.9.11",
+    "pytest>=8.4.2",
+    "pytest-asyncio>=1.2.0",
+    "pytest-cov",
+    "pytest-watch",
+]
