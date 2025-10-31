@@ -101,11 +101,6 @@ docker-compose exec api uv run alembic revision --autogenerate -m "migration des
 # Apply migrations
 docker-compose exec api uv run alembic upgrade head
 
-# Downgrade migrations
-docker-compose exec api uv run alembic downgrade -1
-
-# View migration history
-docker-compose exec api uv run alembic history
 ```
 
 ### Using Docker Compose Production
