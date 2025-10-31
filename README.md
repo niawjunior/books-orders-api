@@ -41,7 +41,7 @@ uv run fastapi dev
 ```
 
 
-## 📚 API Endpoints
+## API Endpoints
 
 ### Authors
 - `POST /api/v1/authors` - Create author
@@ -81,7 +81,9 @@ API_PORT=8000
 LOG_LEVEL=INFO
 ```
 
-## 🧪 Testing
+## Testing
+<img width="1440" height="748" alt="image" src="https://github.com/user-attachments/assets/bbe8724e-ad66-4a47-9899-88865810f7e3" />
+
 
 ### Run all tests
 ```bash
